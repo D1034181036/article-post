@@ -1,0 +1,37 @@
+body {
+	/* Layout */
+	display: flex;
+	justify-content: center;
+
+	/* Font */
+	color: rgb(32, 32, 32);
+	font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Oxygen,Ubuntu,Cantarell,open sans,helvetica neue,sans-serif;
+}
+
+.container {
+	max-width: 720px;
+	padding: 96px 24px;
+}
+
+.post-header {
+	margin-bottom: 48px;
+}
+
+.post-header .post-title {
+	margin: 0 0 2px 0;
+	font-size: 40px;
+}
+
+.post-header .post-meta {
+	color: rgb(100, 100, 100);
+	font-size: 14px;
+}
+
+.post-content {
+	line-height: 28px;
+}
+
+.post-content p {
+	margin: 0 0 32px 0;
+	font-size: 18px;
+}
